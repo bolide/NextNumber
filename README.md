@@ -20,9 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-class NilClass
-  def next_number(qty=1)
-  end
+class NilClass \n\r
+  def next_number(qty=1) \n\r
+  end \n\r
   
   def -(number)
   end
