@@ -1,25 +1,4 @@
-# NextNumber
-
-你可以使用它生成订单号，或者生成带有字符形式的编码。
-
-它来至2008年的Safore。
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'NextNumber'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install NextNumber
-
-## Usage
-
+# -*- encoding : utf-8 -*-
 class NilClass
   def next_number(qty=1)
   end
@@ -78,9 +57,3 @@ class String
     (self-number).abs+1
   end
 end
-
-
-## Contributing
-
-gem install NextNumber
-
